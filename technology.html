@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Cybrom
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+    name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- CSS Files -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="assets/demo/demo.css" rel="stylesheet" />
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="azure" data-background-color="white" data-image="assets/img/sidebar-3.jpg">
+      <!--Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
+        Tip 2: you can also add an image using data-image tag-->
+
+      <div class="logo">
+        <!-- <a href="" class="simple-text logo-mini"></a> -->
+        <a href="" class="simple-text logo-normal px-4">
+          <img src="assets/img/logo.png" class="img-fluid">
+        </a>
+      </div>
+      <div class="sidebar-wrapper">
+        <div class="user">
+          <div class="photo">
+            <img src="assets/img/faces/avatar.jpg" />
+          </div>
+          <div class="user-info">
+            <a data-toggle="collapse" href="#collapseExample" class="username">
+              <span>
+                Tania Andrew
+                <b class="caret"></b>
+              </span>
+            </a>
+            <div class="collapse" id="collapseExample">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <span class="sidebar-mini"> MP </span>
+                    <span class="sidebar-normal"> My Profile </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <span class="sidebar-mini"> EP </span>
+                    <span class="sidebar-normal"> Edit Profile </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <span class="sidebar-mini"> S </span>
+                    <span class="sidebar-normal"> Settings </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <ul class="nav">
+          <li class="nav-item active ">
+            <a class="nav-link" href="index.html">
+              <i class="material-icons">home</i>
+              <p> Home </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="material-icons">image</i>
+              <p> Daily Test </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="material-icons">apps</i>
+              <p>Daily Class Session</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="material-icons">content_paste</i>
+              <p>Daily Code Byte</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="material-icons">grid_on</i>
+              <p>Challenges</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="material-icons">dashboard</i>
+              <p>Practice</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="material-icons">place</i>
+              <p>Interview</p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">
+              <i class="material-icons">widgets</i>
+              <p> Module </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">
+              <i class="material-icons">timeline</i>
+              <p> Project </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="imdex.html">
+              <i class="material-icons">date_range</i>
+              <p> CRT </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-minimize">
+              <button id="minimizeSidebar" class="btn btn-just-icon btn-white btn-fab btn-round">
+                <i class="material-icons text_align-center visible-on-sidebar-regular">more_vert</i>
+                <i class="material-icons design_bullet-list-67 visible-on-sidebar-mini">view_list</i>
+              </button>
+            </div>
+            <a class="navbar-brand" href="#pablo"></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end">
+            <form class="navbar-form">
+              <div class="input-group no-border">
+                <input type="text" value="" class="form-control" placeholder="Search...">
+                <button type="submit" class="btn btn-white btn-round btn-just-icon">
+                  <i class="material-icons">search</i>
+                  <div class="ripple-container"></div>
+                </button>
+              </div>
+            </form>
+            <ul class="navbar-nav text-light">
+              <li class="nav-item">
+                <a class="nav-link" href="#pablo">
+                  <i class="material-icons">dashboard</i>
+                  <p class="d-lg-none d-md-block">
+                    Stats
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="http://example.com/" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <i class="material-icons">notifications</i>
+                  <span class="notification">5</span>
+                  <p class="d-lg-none d-md-block">
+                    Some Actions
+                  </p>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Mike John responded to your email</a>
+                  <a class="dropdown-item" href="#">You have 5 new tasks</a>
+                  <a class="dropdown-item" href="#">You're now friend with Andrew</a>
+                  <a class="dropdown-item" href="#">Another Notification</a>
+                  <a class="dropdown-item" href="#">Another One</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#pablo" id="navbarDropdownProfile" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  <i class="material-icons">person</i>
+                  <p class="d-lg-none d-md-block">
+                    Account
+                  </p>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
+                  <a class="dropdown-item" href="#">Profile</a>
+                  <a class="dropdown-item" href="#">Settings</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Log out</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="header">
+        <div class="container-fluid">
+          <div class="header-body">
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card ">
+                  <div class="card-body p-4">
+                    <div class="media">
+                      <img src="assets/img/pat.jpg" class="h-100 mr-4" height="" />
+                      <div class="media-body">
+                        <h3 class="text-capatilize font-weight-600 text-dark border-bottom mt-0 mb-4">PAT</h3>
+                        <div class="d-flex flex-wrap align-items-center mb-1">
+                          <div class="pr-5">
+                            <h4 class="font-weight-500">Ranking</h4>
+                            <h3 class="text-capatilize font-weight-600 text-dark my-0">60%</h3>
+                          </div>
+                          <div class="pr-5">
+                            <h4 class="font-weight-500">Max Points</h4>
+                            <h3 class="text-capatilize font-weight-600 text-dark my-0">100</h3>
+                          </div>
+                          <div class="pr-5">
+                            <h4 class="font-weight-500">Training</h4>
+                            <h3 class="text-capatilize font-weight-600 text-dark my-0">120 days</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card  mt-0 ">
+                  <div class="card-body p-4">
+                    <div class="row mx-0">
+                      <div class="col-md-5 border-right px-0">
+                        <div class="media align-items-center">
+                          <img src="assets/img/Java_logo_icon.png" class="mr-5" height="70px" />
+                          <div class="media-body">
+                            <h4 class="text-uppercase font-weight-700 text-dark">java</h4>
+                            <h4><span class="font-weight-500">Faculty:</span> <span
+                                class="text-muted font-weight-400">Javed</span></h4>
+                            <h4><span class="font-weight-500">Batch Ends:</span> <span
+                                class="text-muted font-weight-400">30-Oct-19</span></h4>
+                            <h4><span class="font-weight-500">Code Byte:</span> <span
+                                class="text-muted font-weight-400">5/20</span></h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 border-right pl-5">
+                        <h4 class="font-weight-600 pb-2 text-success">Performance</h4>
+                        <h4 class="font-weight-500">Attandance: 90%</h4>
+                        <h4 class="font-weight-500">Test Series: 5/20</h4>
+                        <h4 class="font-weight-500">code Bytes: 5/20</h4>
+                      </div>
+                      <div class="col-md-4 px-3">
+                        <h4 class="text-capatilize font-weight-600">Courses Progress</h4>
+                        <div class="row align-items-center mb-1">
+                          <div class="col-10">
+                            <div class="progress-container progress-primary">
+                              <div class="progress mb-0">
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="20"
+                                  aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-2 pl-0">
+                            <span class="font-weight-700 font-16">20%</span>
+                          </div>
+                        </div>
+                        <h4 class="font-weight-500 text-muted">2 of 10 Contents Completed</h4>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-12">
+                <div class="card  mt-0 ">
+                  <div class="card-body p-4">
+                    <div class="row mx-0">
+                      <div class="col-md-5 border-right px-0">
+                        <div class="media align-items-center">
+                          <img src="assets/img/Java_logo_icon.png" class="mr-5" height="70px" />
+                          <div class="media-body">
+                            <h4 class="text-uppercase font-weight-700 text-dark">java</h4>
+                            <h4><span class="font-weight-500">Faculty:</span> <span
+                                class="text-muted font-weight-400">Javed</span></h4>
+                            <h4><span class="font-weight-500">Batch Ends:</span> <span
+                                class="text-muted font-weight-400">30-Oct-19</span></h4>
+                            <h4><span class="font-weight-500">Code Byte:</span> <span
+                                class="text-muted font-weight-400">5/20</span></h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 border-right pl-5">
+                        <h4 class="font-weight-600 pb-2 text-success">Performance</h4>
+                        <h4 class="font-weight-500">Attandance: 90%</h4>
+                        <h4 class="font-weight-500">Test Series: 5/20</h4>
+                        <h4 class="font-weight-500">code Bytes: 5/20</h4>
+                      </div>
+                      <div class="col-md-4 px-3">
+                        <h4 class="text-capatilize font-weight-600">Courses Progress</h4>
+                        <div class="row align-items-center mb-1">
+                          <div class="col-10">
+                            <div class="progress-container progress-primary">
+                              <div class="progress mb-0">
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="20"
+                                  aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-2 pl-0">
+                            <span class="font-weight-700 font-16">20%</span>
+                          </div>
+                        </div>
+                        <h4 class="font-weight-500 text-muted">2 of 10 Contents Completed</h4>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-md-12">
+                <div class="card  mt-0 ">
+                  <div class="card-body p-4">
+                    <div class="row mx-0">
+                      <div class="col-md-5 border-right px-0">
+                        <div class="media align-items-center">
+                          <img src="assets/img/Java_logo_icon.png" class="mr-5" height="70px" />
+                          <div class="media-body">
+                            <h4 class="text-uppercase font-weight-700 text-dark">java</h4>
+                            <h4><span class="font-weight-500">Faculty:</span> <span
+                                class="text-muted font-weight-400">Javed</span></h4>
+                            <h4><span class="font-weight-500">Batch Ends:</span> <span
+                                class="text-muted font-weight-400">30-Oct-19</span></h4>
+                            <h4><span class="font-weight-500">Code Byte:</span> <span
+                                class="text-muted font-weight-400">5/20</span></h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 border-right pl-5">
+                        <h4 class="font-weight-600 pb-2 text-success">Performance</h4>
+                        <h4 class="font-weight-500">Attandance: 90%</h4>
+                        <h4 class="font-weight-500">Test Series: 5/20</h4>
+                        <h4 class="font-weight-500">code Bytes: 5/20</h4>
+                      </div>
+                      <div class="col-md-4 px-3">
+                        <h4 class="text-capatilize font-weight-600">Courses Progress</h4>
+                        <div class="row align-items-center mb-1">
+                          <div class="col-10">
+                            <div class="progress-container progress-primary">
+                              <div class="progress mb-0">
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="20"
+                                  aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-2 pl-0">
+                            <span class="font-weight-700 font-16">20%</span>
+                          </div>
+                        </div>
+                        <h4 class="font-weight-500 text-muted">2 of 10 Contents Completed</h4>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-md-12">
+                <div class="card  mt-0 ">
+                  <div class="card-body p-4">
+                    <div class="row mx-0">
+                      <div class="col-md-5 border-right px-0">
+                        <div class="media align-items-center">
+                          <img src="assets/img/Java_logo_icon.png" class="mr-5" height="70px" />
+                          <div class="media-body">
+                            <h4 class="text-uppercase font-weight-700 text-dark">java</h4>
+                            <h4><span class="font-weight-500">Faculty:</span> <span
+                                class="text-muted font-weight-400">Javed</span></h4>
+                            <h4><span class="font-weight-500">Batch Ends:</span> <span
+                                class="text-muted font-weight-400">30-Oct-19</span></h4>
+                            <h4><span class="font-weight-500">Code Byte:</span> <span
+                                class="text-muted font-weight-400">5/20</span></h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 border-right pl-5">
+                        <h4 class="font-weight-600 pb-2 text-success">Performance</h4>
+                        <h4 class="font-weight-500">Attandance: 90%</h4>
+                        <h4 class="font-weight-500">Test Series: 5/20</h4>
+                        <h4 class="font-weight-500">code Bytes: 5/20</h4>
+                      </div>
+                      <div class="col-md-4 px-3">
+                        <h4 class="text-capatilize font-weight-600">Courses Progress</h4>
+                        <div class="row align-items-center mb-1">
+                          <div class="col-10">
+                            <div class="progress-container progress-primary">
+                              <div class="progress mb-0">
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="20"
+                                  aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-2 pl-0">
+                            <span class="font-weight-700 font-16">20%</span>
+                          </div>
+                        </div>
+                        <h4 class="font-weight-500 text-muted">2 of 10 Contents Completed</h4>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-md-12">
+                <div class="card  mt-0 ">
+                  <div class="card-body p-4">
+                    <div class="row mx-0">
+                      <div class="col-md-5 border-right px-0">
+                        <div class="media align-items-center">
+                          <img src="assets/img/Java_logo_icon.png" class="mr-5" height="70px" />
+                          <div class="media-body">
+                            <h4 class="text-uppercase font-weight-700 text-dark">java</h4>
+                            <h4><span class="font-weight-500">Faculty:</span> <span
+                                class="text-muted font-weight-400">Javed</span></h4>
+                            <h4><span class="font-weight-500">Batch Ends:</span> <span
+                                class="text-muted font-weight-400">30-Oct-19</span></h4>
+                            <h4><span class="font-weight-500">Code Byte:</span> <span
+                                class="text-muted font-weight-400">5/20</span></h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 border-right pl-5">
+                        <h4 class="font-weight-600 pb-2 text-success">Performance</h4>
+                        <h4 class="font-weight-500">Attandance: 90%</h4>
+                        <h4 class="font-weight-500">Test Series: 5/20</h4>
+                        <h4 class="font-weight-500">code Bytes: 5/20</h4>
+                      </div>
+                      <div class="col-md-4 px-3">
+                        <h4 class="text-capatilize font-weight-600">Courses Progress</h4>
+                        <div class="row align-items-center mb-1">
+                          <div class="col-10">
+                            <div class="progress-container progress-primary">
+                              <div class="progress mb-0">
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="20"
+                                  aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-2 pl-0">
+                            <span class="font-weight-700 font-16">20%</span>
+                          </div>
+                        </div>
+                        <h4 class="font-weight-500 text-muted">2 of 10 Contents Completed</h4>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-md-12">
+                <div class="card mt-0 ">
+                  <div class="card-body p-4">
+                    <div class="row mx-0">
+                      <div class="col-md-5 border-right px-0">
+                        <div class="media align-items-center">
+                          <img src="assets/img/Java_logo_icon.png" class="mr-5" height="70px" />
+                          <div class="media-body">
+                            <h4 class="text-uppercase font-weight-700 text-dark">java</h4>
+                            <h4><span class="font-weight-500">Faculty:</span> <span
+                                class="text-muted font-weight-400">Javed</span></h4>
+                            <h4><span class="font-weight-500">Batch Ends:</span> <span
+                                class="text-muted font-weight-400">30-Oct-19</span></h4>
+                            <h4><span class="font-weight-500">Code Byte:</span> <span
+                                class="text-muted font-weight-400">5/20</span></h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 border-right pl-5">
+                        <h4 class="font-weight-600 pb-2 text-success">Performance</h4>
+                        <h4 class="font-weight-500">Attandance: 90%</h4>
+                        <h4 class="font-weight-500">Test Series: 5/20</h4>
+                        <h4 class="font-weight-500">code Bytes: 5/20</h4>
+                      </div>
+                      <div class="col-md-4 px-3">
+                        <h4 class="text-capatilize font-weight-600">Courses Progress</h4>
+                        <div class="row align-items-center mb-1">
+                          <div class="col-10">
+                            <div class="progress-container progress-primary">
+                              <div class="progress mb-0">
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="20"
+                                  aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-2 pl-0">
+                            <span class="font-weight-700 font-16">20%</span>
+                          </div>
+                        </div>
+                        <h4 class="font-weight-500 text-muted">2 of 10 Contents Completed</h4>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container-fluid">
+          <nav class="float-left">
+            <ul>
+              <li>
+                <a href="">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  Licenses
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="copyright float-right">
+            &copy;
+            <script>
+              document.write(new Date().getFullYear())
+            </script>, made with <i class="material-icons">favorite</i> by
+            <a href="https://www.creative-tim.com/" target="_blank">Rohit Singh</a> for a better web.
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="assets/js/core/jquery.min.js"></script>
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap-material-design.min.js"></script>
+  <script src="assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="buttons.github.io/buttons.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="assets/js/plugins/bootstrap-selectpicker.js"></script>
+
+  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="assets/js/custom.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function () {
+      $().ready(function () {
+        $sidebar = $('.sidebar');
+
+        $sidebar_img_container = $sidebar.find('.sidebar-background');
+
+        $full_page = $('.full-page');
+
+        $sidebar_responsive = $('body > .navbar-collapse');
+
+        window_width = $(window).width();
+
+        fixed_plugin_open = $('.sidebar .sidebar-wrapper .nav li.active a p').html();
+
+        if (window_width > 767 && fixed_plugin_open == 'Dashboard') {
+          if ($('.fixed-plugin .dropdown').hasClass('show-dropdown')) {
+            $('.fixed-plugin .dropdown').addClass('open');
+          }
+
+        }
+
+        $('.fixed-plugin a').click(function (event) {
+          //  f we click on switch, stop propagation of the event, so the dropdown will not be hide, otherwise we set the  section active
+          if ($(this).hasClass('switch-trigger')) {
+            if (event.stopPropagation) {
+              event.stopPropagation();
+            } else if (window.event) {
+              window.event.cancelBubble = true;
+            }
+          }
+        });
+
+        $('.fixed-plugin .active-color span').click(function () {
+          $full_page_background = $('.full-page-background');
+
+          $(this).siblings().removeClass('active');
+          $(this).addClass('active');
+
+          var new_color = $(this).data('color');
+
+          if ($sidebar.length != 0) {
+            $sidebar.attr('data-color', new_color);
+          }
+
+          if ($full_page.length != 0) {
+            $full_page.attr('filter-color', new_color);
+          }
+
+          if ($sidebar_responsive.length != 0) {
+            $sidebar_responsive.attr('data-color', new_color);
+          }
+        });
+
+        $('.fixed-plugin .background-color .badge').click(function () {
+          $(this).siblings().removeClass('active');
+          $(this).addClass('active');
+
+          var new_color = $(this).data('background-color');
+
+          if ($sidebar.length != 0) {
+            $sidebar.attr('data-background-color', new_color);
+          }
+        });
+
+        $('.fixed-plugin .img-holder').click(function () {
+          $full_page_background = $('.full-page-background');
+
+          $(this).parent('li').siblings().removeClass('active');
+          $(this).parent('li').addClass('active');
+
+
+          var new_image = $(this).find("img").attr('src');
+
+          if ($sidebar_img_container.length != 0 && $('.switch-sidebar-image input:checked').length != 0) {
+            $sidebar_img_container.fadeOut('fast', function () {
+              $sidebar_img_container.css('background-image', 'url("' + new_image + '")');
+              $sidebar_img_container.fadeIn('fast');
+            });
+          }
+
+          if ($full_page_background.length != 0 && $('.switch-sidebar-image input:checked').length != 0) {
+            var new_image_full_page = $('.fixed-plugin li.active .img-holder').find('img').data('src');
+
+            $full_page_background.fadeOut('fast', function () {
+              $full_page_background.css('background-image', 'url("' + new_image_full_page + '")');
+              $full_page_background.fadeIn('fast');
+            });
+          }
+
+          if ($('.switch-sidebar-image input:checked').length == 0) {
+            var new_image = $('.fixed-plugin li.active .img-holder').find("img").attr('src');
+            var new_image_full_page = $('.fixed-plugin li.active .img-holder').find('img').data('src');
+
+            $sidebar_img_container.css('background-image', 'url("' + new_image + '")');
+            $full_page_background.css('background-image', 'url("' + new_image_full_page + '")');
+          }
+
+          if ($sidebar_responsive.length != 0) {
+            $sidebar_responsive.css('background-image', 'url("' + new_image + '")');
+          }
+        });
+
+        $('.switch-sidebar-image input').change(function () {
+          $full_page_background = $('.full-page-background');
+
+          $input = $(this);
+
+          if ($input.is(':checked')) {
+            if ($sidebar_img_container.length != 0) {
+              $sidebar_img_container.fadeIn('fast');
+              $sidebar.attr('data-image', '#');
+            }
+
+            if ($full_page_background.length != 0) {
+              $full_page_background.fadeIn('fast');
+              $full_page.attr('data-image', '#');
+            }
+
+            background_image = true;
+          } else {
+            if ($sidebar_img_container.length != 0) {
+              $sidebar.removeAttr('data-image');
+              $sidebar_img_container.fadeOut('fast');
+            }
+
+            if ($full_page_background.length != 0) {
+              $full_page.removeAttr('data-image', '#');
+              $full_page_background.fadeOut('fast');
+            }
+
+            background_image = false;
+          }
+        });
+
+        $('.switch-sidebar-mini input').change(function () {
+          $body = $('body');
+
+          $input = $(this);
+
+          if (md.misc.sidebar_mini_active == true) {
+            $('body').removeClass('sidebar-mini');
+            md.misc.sidebar_mini_active = false;
+
+            $('.sidebar .sidebar-wrapper, .main-panel').perfectScrollbar();
+
+          } else {
+
+            $('.sidebar .sidebar-wrapper, .main-panel').perfectScrollbar('destroy');
+
+            setTimeout(function () {
+              $('body').addClass('sidebar-mini');
+
+              md.misc.sidebar_mini_active = true;
+            }, 300);
+          }
+
+          // we simulate the window Resize so the charts will get updated in realtime.
+          var simulateWindowResize = setInterval(function () {
+            window.dispatchEvent(new Event('resize'));
+          }, 180);
+
+          // we stop the simulation of Window Resize after the animations are completed
+          setTimeout(function () {
+            clearInterval(simulateWindowResize);
+          }, 1000);
+
+        });
+      });
+    });
+  </script>
+  <script>
+    $(".hide").first().addClass("current").show();
+    $("#next").click(function () {
+      var current = $(".current");
+      var next = $(current).next();
+      if ($(next).length > 0) {
+        $(next).addClass("current").show();
+        $(current).removeClass("current");
+        $(current).hide();
+      }
+    });
+
+    $("#prev").click(function () {
+      var current = $(".current");
+      var previous = $(current).prev();
+      if ($(previous).length > 0) {
+        $(previous).addClass("current").show();
+        $(current).removeClass("current");
+        $(current).hide();
+      }
+    });
+  </script>
+
+</body>
+
+</html>
